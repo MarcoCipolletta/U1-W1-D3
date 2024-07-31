@@ -1,3 +1,51 @@
 body {
     margin: 0;
+    color: #333333;
 }
+
+header {
+    text-align: center;
+}
+header img {
+    width: 150px;
+}
+
+header div {
+     border-top: 1px solid #FFD877;
+     background-color: #FDFBF1;
+     color: #0F7777;
+     font-size: 0.6rem;
+     vertical-align: middle;
+ }
+
+ header div p {
+    padding-block: 12px;
+    margin: 0;
+ }
+
+ main {
+    width: 550px;
+    margin-inline: auto;
+ }
+ main h1 {
+    text-align: center;
+    font-size: 1.8rem;
+ }
+ main p {
+    font-size: 0.8rem;
+ }
+
+ picture {
+    text-align: center;
+    color: #999999;
+ }
+
+ picture img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(56, 56, 56, 0.5);
+ }
+ picture figcaption {
+    margin-top: 7px;
+    font-size: 0.8rem;
+ }
