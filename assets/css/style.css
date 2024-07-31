@@ -33,6 +33,7 @@ header div {
  }
  main p {
     font-size: 0.8rem;
+    margin-bottom: 10px;
  }
 
  picture {
@@ -48,4 +49,54 @@ header div {
  picture figcaption {
     margin-top: 7px;
     font-size: 0.8rem;
+ }
+
+video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(20, 20, 20, 0.8);
+    margin-bottom: 8px;
+}
+
+.caption {
+    text-align: center;
+    color: #999999;
+    margin: 0;
+}
+
+
+ section {
+    border-left: 1px solid #FFD877;
+    margin-block: 30px;
+ }
+ section h4, section p{
+    margin: 0;
+    margin-left: 15px;
+ }
+
+ section h4 {
+    color: #B5460F;
+    font-weight: normal;
+    font-size: 0.8rem;
+ }
+
+a {
+    color: #0F7777;
+ }
+ article div h2 {
+    font-weight: normal;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #C4F3F2;
+ }
+ article div h5 {
+    margin-bottom: 0;
+ }
+
+ article div ul li {
+    margin-block: 10px;
+    font-size: 0.8rem;
+ }
+
+ article div ol li h5 {
+    margin-bottom: 10px;
  }
